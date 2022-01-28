@@ -10,27 +10,36 @@ There is a difference here between preventing and what we can pro-actively do.
 Preventing is stopping us from overengineering in the first place, and pro-actively doing something to prepare us for future enhancements.
 
 # On what levels can we over-engineer?
-I've chosen to use the C4 model as proprosed by (c4 author) 
-I find that it gives a good model of where overengineering might and can happen.
-The C4 model describes 4 views one can have on a sytem.
-1. system [C]ontext
-2. [C]ontainers
-3. [C]omponents
-4. [C]ode
 
 
-## How to prevent overengineering
+# Why do we overengineer?
+## Defensive programming
+## Scaling issues
+## known unknowns
 
-## What to do instead
+
+
+# How to prevent overengineering
+
+# Key take-aways
+1. Figure out the 'WHY' (goal) and 'WHAT' (requirements)
+2. Prefer overengineering to underengineering
+3. built-in fexibility and minimize impact of change (from impact change analysis)
+4. Stay in the present, don't solve problems you think you might have in the future
+5. Mind the scope creep
+
 
 # Resources
 1. What is overengineering?
 2. What is the meaning of overengineering?
 3. How can we detect overengineering?
 4. How can we manage technical debt?
+5. [Change Impact analysis](https://en.wikipedia.org/wiki/Change_impact_analysis)
+6. [History of development methodologies](https://intetics.com/blog/a-brief-history-of-software-development-methodologies/#:~:text=The%20history%20of%20software%20development,approach%E2%80%9D%20did%20not%20actually%20exist.&text=The%20main%20objective%20of%20this,of%20large%2Dscale%20business%20conglomerates.)
+7. [How do you measure software resiliency?](https://www.it-cisq.org/pdf/How-Do-You-Measure-Software-Resilience-CISQ.pdf)
 
 # Terms to use
-1. impact of change
+1. ~~impact of change
 2. technical debt
 3. hexagonal architecture
 4. DDD (Domain Driven Design)
@@ -42,6 +51,8 @@ The C4 model describes 4 views one can have on a sytem.
 10. increase flexibility
 11. 
 
+# Tags
+#leakyAbstraction #YAGNI #SOLID #overengineering
 
 # inspirations
 [[202201060833 Overengineering resources]]

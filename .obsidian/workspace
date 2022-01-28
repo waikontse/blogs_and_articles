@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "904ae881e0be3674",
+    "type": "split",
+    "children": [
+      {
+        "id": "09b38ff609fa7215",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "articles/Stop overengineering.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7440a419bdd0674e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8f0513b9e90bf03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a3fd4e22629023",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7489a5800c0133e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "571db3af59a5a980",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8fa9dcaeb52e890",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb0276993c162efd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "articles/Stop overengineering.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3176da5ad0e1b25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "articles/Stop overengineering.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dfa4d967bb1f7fa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "09b38ff609fa7215",
+  "lastOpenFiles": [
+    "articles/Stop overengineering.md",
+    "28-01-2022.md",
+    "daily notes/28-01-2022.md",
+    "knowledge sharing/Blogs.md",
+    "knowledge sharing/Podcasts.md",
+    "knowledge sharing/Channels.md",
+    "book summeries/Programmer's Brain.md"
+  ]
+}

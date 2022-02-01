@@ -10,7 +10,14 @@ There is a difference here between preventing and what we can pro-actively do.
 Preventing is stopping us from overengineering in the first place, and pro-actively doing something to prepare us for future enhancements.
 
 # On what levels can we over-engineer?
-1.
+On one axis we have
+1. architecture
+2. design
+3. code
+
+On another axis we have
+1. functional requirement
+2. non-functional requirement
 
 # Why do we overengineer?
 ## Defensive programming

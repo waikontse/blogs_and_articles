@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "09b38ff609fa7215",
+        "id": "39d2b533f533d15b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "articles/Stop overengineering.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -107,11 +107,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "09b38ff609fa7215",
+  "active": "39d2b533f533d15b",
   "lastOpenFiles": [
     "articles/Stop overengineering.md",
-    "28-01-2022.md",
+    "daily notes/Code review Paulo.md",
+    "articles/pictures/functional-vs-nonfunctional.png",
+    "articles/pictures/functional-nonfunctional.png",
     "daily notes/28-01-2022.md",
+    "28-01-2022.md",
     "knowledge sharing/Blogs.md",
     "knowledge sharing/Podcasts.md",
     "knowledge sharing/Channels.md",

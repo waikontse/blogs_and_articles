@@ -19,7 +19,7 @@ I believe that overengineering comes from
 3. human factor
 
 ## Lack of clearly defined requirements
-In the old days of waterfall development, we did a lot of upfront requirements gathering and design, and no coding. 
+In the old days of waterfall development, we did a lot of requirements gathering and design up front, and no coding. 
 This methodology has it's fair share of failed projects without even a working system to show up for it.
 Fast forward a few decades we went from a waterfall model to a spiral model and landed to where we are now with agile.
 We went from rigorous requirements gathering and design upfront to writing code with some requirements to writing code and user stories.
@@ -27,21 +27,20 @@ The problem with most user stories are that the requirements are not part of the
 ![[User-Story-and-Description-1024x679.png|400]]
 
 What we are missing here are the requirements (functional/non-functional). 
-With the lack of requirements, comes freedom of interpretation.
+Without requirements we are free to interpret the user story as we see fit.
 Best case scenario, we have achieved what we ideally should have achieved design or code wise.
 Average case scenario would be that we've overengineered, delayed the product launch, upset stakeholders, and went a bit over budget.
 Most importantly, the product is working as expected.
-Worst case scenario would be that we've underengineered, taken some shortcuts, and unknowingly introduced bugs or defects.
-But we have launched on time and happy stakeholders.
+Worst case scenario would be that we've underengineered, taken some shortcuts, and unknowingly introduced bugs or defects, but we have launched on time and have happy stakeholders.
 
 We can do better much better by providing the requirements in the acceptance criteria of the user story.
 You can even take it up a notch, you can even describe your requirements in plain spoken language on how your system should behave and translate it to something like [Gherking](https://cucumber.io/) and have semi-working tests for your requirements.
 If that got you excited, you should read up on BDD (Behaviour Driven development).
 
-The big question is ofcourse, how do we come up with requirements?
+The big question is of course, how do we come up with requirements?
 We have to start asking questions and receive realistic answers.
 E.g. 'What should happen if user A does thing Y?', or 'How should it behave if thing X happens?'
-The goal here is to gather the right amount of requirements so we don't under or overengineer.
+The goal here is to gather the right amount of requirements so we don't under or overengineer, and solve for the problem we currently have.
 Here are some of my favorite techniques and methods
 1. Impact mapping (for finding your goal)
 2. MoSCoW method (for setting your requirements)
@@ -51,7 +50,7 @@ Here are some of my favorite techniques and methods
 To give you an idea of what I mean, we can go overboard with defensive programming, worrying about scaling issues and known unknowns.
 All of these activities can be a potential time suck. So make sure you stay in the present and solve problems you currently have.
 
-## Humand factor
+## Human factor
 ```ad-todo
 Should I write about the human factor? or leave it out
 ```
@@ -70,13 +69,14 @@ On another axis we have
 
 ## When do we overengineer?
 
-Looking back at the diagram we can for the mayority of cases or overengineering into the right half, where the non-requirements reside. 
+Looking at the diagram I say that overengineering mostly occurs into the right half of the diagram.
 This could mean that while thinking/working on certain feature, we haven't given it enough thought on the non-functional requirements.
 Or it's also possible we might be able to lower overengineering if we have the list of non-functional requirement beforehand. 
 ![[functional-vs-nonfunctional-with-arrows.png]]
 
-Now, if we want to combine underengineering and overengineering, I would say that underengineering would reside in the left half of the diagram.
-When we want to prevent underengineering, make sure your functional requirements are complete. 
+Now, if we want to get an idea where underengineering and overengineering occurs, I would say that underengineering mostly occurs in the left half of the diagram.
+When we want to prevent underengineering, make sure your functional requirements are complete.
+
 ![[functional-vs-nonfunctional-with-arrows-2.png]]
 
 # How to prevent overengineering
@@ -87,34 +87,7 @@ When we want to prevent underengineering, make sure your functional requirements
 5. Mind the scope creep
 
 # How to actively prepare for overengineering
+By following good software engineering practices you should have software (code or architecture wise) which is both low coupling and high cohesion. 
 1. built-in fexibility and minimize impact of change (from impact change analysis)
-2. 
-
-
-# Resources
-1. What is overengineering?
-2. What is the meaning of overengineering?
-3. How can we detect overengineering?
-4. How can we manage technical debt?
-5. [Change Impact analysis](https://en.wikipedia.org/wiki/Change_impact_analysis)
-6. [History of development methodologies](https://intetics.com/blog/a-brief-history-of-software-development-methodologies/#:~:text=The%20history%20of%20software%20development,approach%E2%80%9D%20did%20not%20actually%20exist.&text=The%20main%20objective%20of%20this,of%20large%2Dscale%20business%20conglomerates.)
-7. [How do you measure software resiliency?](https://www.it-cisq.org/pdf/How-Do-You-Measure-Software-Resilience-CISQ.pdf)
-
-# Terms to use
-1. ~~impact of change
-2. technical debt
-3. hexagonal architecture
-4. DDD (Domain Driven Design)
-5. SOLID
-6. Layering -> maybe hexagonal architecture
-7. feature creep
-8. reduce coupling
-9. testing
-10. increase flexibility
-11. 
-
-# Tags
-#leakyAbstraction #YAGNI #SOLID #overengineering
-
-# inspirations
-[[202201060833 Overengineering resources]]
+2. keep things SOLID
+3. Solve problems you have and not what you might have
